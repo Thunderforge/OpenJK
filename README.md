@@ -55,13 +55,19 @@ If you do not have a windows partition and need to download the game base.
 
 **macOS Instructions**
 
-If you have the Mac App Store Version of Jedi Academy, follow these steps to get OpenJK runnning under macOS:
+Follow these steps to get OpenJK runnning under macOS:
 
 1. Install [Homebrew](http://brew.sh/) if you don't have it.
-2. Open the Terminal app, and enter the command `brew install sdl2`.
-3. Extract the contents of the OpenJK DMG ([Download the latest build](http://builds.openjk.org)) into the game directory `/Applications/Star Wars Jedi Knight: Jedi Academy.app/Contents/`
-4. Run `OpenJK.app` or `OpenJK SP.app` 
-5. Savegames, Config Files and Log Files are stored in `/Users/<USER>/Library/Application Support/OpenJK/`
+1. Open the Terminal app, and enter the command `brew install sdl2`.
+1. Navigate to your Jedi Academy installation
+   - Mac App Store and GOG.com: `/Applications/Star Wars Jedi Knight: Jedi Academy.app`
+   - Steam: `~/Library/Application Support/Steam/SteamApps/common/Jedi Academy/SWJKJA.app`
+1. Right-click on the app and choose "Show Package Contents"; this will open a new window
+1. Open the `Contents` folder
+1. Extract the files included on the OpenJK DMG ([Download the latest build](http://builds.openjk.org)) into the `Contents` directory from the previous step
+1. Run `OpenJK.app` or `OpenJK SP.app` 
+
+Savegames, Config Files and Log Files are stored in `/Users/<USER>/Library/Application Support/OpenJK/`
 
 
 ## For Developers
